@@ -1,0 +1,15 @@
+{
+  "name": "live-weather-app",
+  "version": "1.0.0",
+  "description": "My first dynamic app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mrityunjay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

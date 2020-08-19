@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  background: #fc4a1a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2% 3%;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: #333;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  color: #444;
+  margin: 30px 0 20px;
+}
+
+button {
+  color: #333;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button:hover {
+  color: white;
+  background: #fc4a1a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7b733, #fc4a1a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .container {
+    width: 40vh;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+}
