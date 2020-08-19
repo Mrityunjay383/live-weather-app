@@ -51,7 +51,7 @@ app.post("/", function(req, res) {
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Live Weather App</title>
+            <title>${disCity} | Live Weather App</title>
             <link rel="icon" href="Images/favIcon.png">
 
             <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
