@@ -66,7 +66,7 @@ app.post("/", function(req, res) {
               </div>
               <ul>
               <li><span class="ulHead">Weather:</span> <spam class="disData">${des}</spam></li>
-              <li><span class="ulHead">Temprature</span>: <spam class="disData">${temp} &#8451;</spam></li>
+              <li><span class="ulHead">Temperature</span>: <spam class="disData">${temp} &#8451;</spam></li>
               <li><span class="ulHead">Wind Speed</span>: <spam class="disData">${windSpeed} m/s</spam></li>
               <li><span class="ulHead">Pressure</span>: <spam class="disData">${pressure} hpa</spam></li>
               <li><span class="ulHead">Humidity</span>: <spam class="disData">${humidity}%</spam></li>
