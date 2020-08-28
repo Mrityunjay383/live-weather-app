@@ -70,8 +70,8 @@ app.post("/", function(req, res) {
               <li><span class="ulHead">Wind Speed</span>: <spam class="disData">${windSpeed} m/s</spam></li>
               <li><span class="ulHead">Pressure</span>: <spam class="disData">${pressure} hpa</spam></li>
               <li><span class="ulHead">Humidity</span>: <spam class="disData">${humidity}%</spam></li>
-              <li><span class="ulHead">SunRise at</span>: <spam class="disData">${date}</spam></li>
-              <li><span class="ulHead">SunSet at</span>: <spam class="disData">${date1}</spam></li>
+              <li><span class="ulHead">SunRise at</span>: <spam class="disData">${timestr}</spam></li>
+              <li><span class="ulHead">SunSet at</span>: <spam class="disData">${timestr1}</spam></li>
               </ul>
             </div>
             <form class="" action="/main" method="post">
